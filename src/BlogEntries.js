@@ -44,7 +44,7 @@ export default class BlogEntries extends Component {
   	
     return (
     	<div>
-    		<div onClick = {this.sort} className = "sortDiv">Toggle Sort Direction {sorter}</div>
+    		<div onClick = {this.sort} className = "sortDiv">Toggle Chronology {sorter}</div>
     		<div className = "entriesComponent">
 					{content}
       	</div>
