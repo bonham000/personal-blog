@@ -19,7 +19,7 @@ const Blog = [
 				It can be hard to find a clear path. What I write here describes how I solved this problem.</p>
 				<p class = "entryText">This writing is also a record of my journey across America. In October of 2016, I set out from Tennessee to drive westward to San Francisco
 				with one goal in mind: to secure a new life and career as a software developer. The story written here is the record of that journey, as well.</p>
-				<img id = "zeppelinImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162283/blog/led-zeppelin.jpg" alt = "A Led Zeppelin" />
+				<img id = "zeppelinImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162283/blog/led-zeppelin.jpg" alt = "A Led Zeppelin" />
 				<p class = "entryText">Here, then, is my adventure across America, my path into programming, threaded together in a sometimes sarcastic, sometimes opinionated, somewhat verbose, autobiographical tale.
 				If you want to learn more about me, <a target = "_blank" href = "http://www.sean-smith.me">please go here</a>.</p>
 			`
@@ -42,11 +42,11 @@ const Blog = [
 				<p class = "entryText quoteText"><em>Always sweep with,<br />with threshing oar.<br /><br /></em><em>Our only goal<br />will be the western shore.</em></p>
 				<p class = "entryText">Since March of this year, since the day of my birthday, in fact, I had been furiously trying to learn to code. I made up my mind on that day that I was going to take my life in a new direction and so I went to work, scouring the internet trying to devise a plan for the future as I contemplated entering a new industry I had practically no knowledge of or experience in.</p>
 				<p class = "entryText">Quickly, I became overwhelmed with the amount of material and advice that existed. The sheer amount of information is staggering. Later I would learn of JavaScript Fatigue, which refers to the overwhelming rate at which new frameworks are released into the open source JavaScript community (I believe it&rsquo;s like one a day, now?), but for a novice like me it was more like straight information fatigue.</p>
-				<img id = "fatigueImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162267/blog/js-fatigue.png" alt = "JavaScript Fatigue" />
+				<img id = "fatigueImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162267/blog/js-fatigue.png" alt = "JavaScript Fatigue" />
 				<p class = "captionText">How if feels learning JavaScript in 2016</p>
 				<p class = "entryText">Tutorials, blogs, bootcamps, MOOCs, podcasts, forums, Reddit, StackOverflow &mdash; where do you begin? What language do you learn? I hear C is good, wait what? Oh, C++ is better? But all enterprise software is written in Java? Ok, Java then. Wait, Ruby? No, I haven&rsquo;t tried Ruby, should I try Ruby? No, not Ruby, Ruby <em>on Rails</em> is where it&rsquo;s at? But I heard a lot about Python too. Huh? what do you mean &ldquo;full stack JavaScript&rdquo; is the future? Oh, it&rsquo;s not, <em>functional </em>programming is the future? So I should just learn Haskell already? But what about Scala, it&rsquo;s functional, right? We could go on and on here&hellip;</p>
 				<p class = "entryText">Fortunately, I quickly discovered <a target = "_blank" href = "https://www.freecodecamp.com/">Free Code Camp</a> and as I learned more about it decided this was by far the most accessible and effective means of entering the world of programming for someone like me. In person bootcamps were out of the question, returning to college was out of the question (I heard graduates can&rsquo;t even solve FizzBuzz anyway), and yes, I was quickly learning that full stack JavaScript may well be the future. At least a big part of the future, that is.</p>
-				<img id = "fccImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162261/blog/fcc.png" alt = "Free Code Camp" />
+				<img id = "fccImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162261/blog/fcc.png" alt = "Free Code Camp" />
 				<p class = "captionText">It was like 4 months later that I realized their logo is a camel-cased function call. And the birds are flying curly braces.</p>
 				<p class = "entryText">So I dove headfirst into the Free Code Camp curriculum and promptly drowned. For anyone unfamiliar with FCC, it is a free and open source community that provides a self-paced educational curriculum based on full stack JavaScript development. To provide some perspective, in recent years the JavaScript community has literally exploded and proliferated at an exponential rate. Now it is a massive open source ecosystem with readymade solutions for almost any problem you could think of and it continues to grow at blistering speed. Projects like React Native are porting JavaScript to mobile devices with great success, more and more languages are adding JavaScript as a compile-target, people are even running JavaScript on IoT devices. It&rsquo;s awesome. Everyone loves it. No longer is JavaScript ridiculed for its quirks and birth defects.</p>
 				<p class = "entryText centerText" id = "emoji">
@@ -73,7 +73,7 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText"> Nashville, my hometown, was my first stop. I stayed here a few days refining my plan, starting this blog, writing some code, and trying to scrape up some cash to make my credit-funded journey a little less reckless. To avoid getting too nostalgic about the city I grew up in, I&rsquo;ll talk a little more about Free Code Camp and learning to code here.</p>
-				<img id = "skylineImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162342/blog/nashville_skyline_1.jpg" alt = "Nashville Skyline" />
+				<img id = "skylineImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162342/blog/nashville_skyline_1.jpg" alt = "Nashville Skyline" />
 				<p class = "captionText">Downtown Music City</p>
 				<p class = "entryText">Free Code Camp&rsquo;s curriculum begins with the basics of HTML and CSS, which describe the structure and style of web pages, respectively, and quickly introduces JavaScript, which is the programming logic that runs ubiquitously on web browsers and is responsible for most moving parts you encounter on the web. With these fundamentals in hand, campers proceed to solve progressively more difficult algorithm challenges and built several front-end web projects that solidify a basic understanding of programming and introduce them to the use of APIs.</p>
 				<p class = "entryText">The API projects include a service that queries Wikipedia and another that retrieves the user&rsquo;s local weather information, and the advanced front end projects include a productivity timer, a replica of the 1978 Simon game, and a Tic-Tac-Toe game that can&rsquo;t be beaten by the player.</p>
@@ -81,7 +81,7 @@ const Blog = [
 				<p class = "entryText">Meanwhile, back on the front end are JavaScript libraries and web frameworks. These are pieces of software designed to facilitate the development of modern web applications by providing tools and abstractions for commonly encountered tasks. You have various users in a database and you want them to see different things when they login, that&rsquo;s the kind of problem a web framework might try to solve in an elegant manner. These days, there are a lot of frameworks and libraries that try to ease JavaScript development. So many, in fact, that JavaScript developers often become fatigued trying to understand them all.</p>
 				<p class = "entryText">To return to our novice, he is now overwhelmed and drowning once again in JavaScript world. Those first front end projects had about three different files, html, css, and js&mdash;now you need several files, like 50 dependencies, and this strange module bundler called webpack to even get started. And, don&rsquo;t worry, in case you weren't overwhelmed yet you've also got five projects using D3.js, an admittedly awesome visualization library that is nonetheless very cryptic to beginners.</p>
 				<p class = "entryText">Well, no one said becoming a software developer was going to be easy, anyway. Luckily the Nashville Downtown Library is a great place to find focus.</p>
-				<img id = "libraryImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162373/blog/library.jpg" alt = "Nashville Downtown Library" />
+				<img id = "libraryImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162373/blog/library.jpg" alt = "Nashville Downtown Library" />
 			`
 	},
 	{
@@ -90,7 +90,7 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText"> Ah, how the blues of Memphis&rsquo; Beale Street remind me of Led Zeppelin&rsquo;s legendary music. Known well for barbecue, blues, and rock music, my favorite aspect of Memphis is still the mainstay known as Chinese Sub Shop. Seriously, if you find yourself in Memphis, don&rsquo;t leave without trying the Super Submarine Sandwich Shop. Unforgettable.</p>
-				<img id = "chineseSubImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162306/blog/chinese-sub.jpg" alt = "Chinese Sub Shop" />
+				<img id = "chineseSubImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162306/blog/chinese-sub.jpg" alt = "Chinese Sub Shop" />
 				<p class = "captionText">The 12" Super Sub. Chips are free.</p>
 				<p class = "entryText">On another note, if you haven&rsquo;t noticed yet the numerous allusions to Led Zeppelin throughout this story, then that may explain anything odd you read that didn't make sense. I read once that a copy of <a target = "_blank" href = "https://en.wikipedia.org/wiki/Led_Zeppelin_II">Led Zeppelin II</a> is all you need to get through life as a teenager. If that&rsquo;s true then I would say that their full studio recordings are sufficient to get through life itself.</p>
 				<p class = "entryText">The epic British rock band named the 2003 release of their 1972 performances in California <em>How the West Was Won</em> to refer to their musical conquest of a continent. Jimmy Page refers to these performances as Led Zeppelin at its peak and I couldn't agree with him more.</p>
@@ -110,7 +110,7 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText">I've finally made it to Oklahoma City! There is a lot of work I'd like to do while I'm here so I'll need to get started. Ideally, I'd like to finish all of Free Code Camp's Dynamic Web App projects, the last projects for the Back End Certification, before leaving. However, this might be too ambitious. Good thing my favorite food is close by. <i class="em em-stew"></i></p>
-				<img id = "phoImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162352/blog/pho-bulous.jpg" alt = "Pho Bulous" />
+				<img id = "phoImg" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162352/blog/pho-bulous.jpg" alt = "Pho Bulous" />
 				<p class = "captionText">"Pho Bulous" </p>
 			`
 	},
@@ -126,7 +126,7 @@ const Blog = [
 					<i class="em em-corn"></i>
 					<i class="em em-cactus"></i>
 				</p>
-				<img id = "windmills" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162316/blog/windmills.jpg" alt = "Willmills in the Midwest" />
+				<img id = "windmills" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162316/blog/windmills.jpg" alt = "Willmills in the Midwest" />
 				<p class = "captionText">Somewhere in Texas</p>
 			`
 	},
@@ -136,7 +136,7 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText">Now that I'm sitting comfortably in my tent in western Arizona on the banks of the Colorado River, I think I'll elaborate more on learning JavaScript through Free Code Camp. Having just driven through Texas, New Mexico, and most of Arkansas I've had plenty of time to reflect on my experience.</p>
-				<img id = "bullhead" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162317/blog/bullhead.jpg" alt = "Colorado River Campground" />
+				<img id = "bullhead" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162317/blog/bullhead.jpg" alt = "Colorado River Campground" />
 				<p class = "captionText">The wind blew my tent into the river right after this</p>
 				<p class = "entryText">After learning the basics of HTML, CSS, JS, and jQuery in the first certification, the second certification in the Free Code Camp curriculum introduces campers to two important JavaScript libraries: React and D3. Note: the curriciulum is in process of being revised so it's structure may be different in the future.</p>
 				<p class = "entryText">React is a JavaScript library which was open sourced by Facebook a few years ago. Although the community initially greeted it with skepticism, it has since taken the JS world by storm and has spawned an entire ecosystem around itself.</p>
@@ -150,7 +150,7 @@ const Blog = [
 					<i class="em em-x"></i>
 				</p>
 				<p class = "entryText">I'm explaining this here because I think this is one of the most important learning experiences I've had through Free Code Camp. Things are changing so quickly in the development world and in technology in general, I think it's pretty well accepted now that to be successful you have to be very good at learning new skills. As I was struggling with React I said to myself, <em>"Listen, you need to figure out a way to learn this, and pay close attention to how you do it, because you will probably need the ability to learn something new again, and again, and again in the future."</em></p>
-				<img id = "colorado-river" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162314/blog/colorado-river.jpg" alt = "Colorado River Campground" />
+				<img id = "colorado-river" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162314/blog/colorado-river.jpg" alt = "Colorado River Campground" />
 				<p class = "captionText">The Colorado River in the morning</p>
 				<p class = "entryText">What I decided is that I would build 25 projects with React (story <a target = '_blank' href = 'http://sean-smith.me/assets/portfolio/25-react-projects/index.html'>here</a>), and to do this I started with simple tutorials and replicated them until I felt comforatable enough with the basics to branch out with my own ideas. Eventually, I went back and rebuilt all 8 of the front end projects in React (story <a target = "_blank" href ='https://medium.com/@bonham000/why-i-built-free-code-camps-front-end-projects-twice-c3dadfd03b6a#.1i8o43cfx'>here</a> and <a target = "_blank" href = "http://sean-smith.me/assets/portfolio/front-end-projects/index.html">here</a>), and then, finally, I went ahead and built the 5 Free Code Camp React projects.</p>
 				<p class = "entryText">The process was to start small with simple pieces and build up from there, iterating and repeating the basics over and over again, and it proved to be very effective. Importantly, because I was focused at every point on a small but attainable goal, it was harder to fall into a trap of feeling overwhelming by a myriad of things I didn't understand, which was the very unproductive way I felt previously.</p>
@@ -163,9 +163,9 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText">I've finally arrived in San Francisco! <i class="em em-smile"></i> <i class="em em-smile"></i> <i class="em em-smile"></i> </p>
-				<img id = "pacificOcean" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162373/blog/pacific-ocean.jpg" alt = "Pacific Ocean" />
+				<img id = "pacificOcean" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162373/blog/pacific-ocean.jpg" alt = "Pacific Ocean" />
 				<p class = "entryText"> It's been a little over 10 years since I was last here, and I'm very happy to be back. The idea of 'finishing the last projects on the road' didn't quite work out... so I've got a lot of work to do here now as I try to finish up these last projects and begin searching for a job. But I am extremely excited to be here and can't wait to get started!</p>
-				<img id = "usaMap" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162332/blog/USA.png" alt = "USA Map" />
+				<img id = "usaMap" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162332/blog/USA.png" alt = "USA Map" />
 			`
 	},
 	{
@@ -175,7 +175,7 @@ const Blog = [
 			`
 				<p class = "entryText">With much effort I've now finished the 5 dynamic web app projects at the end of Free Code Camp's third certification, which marks my completion of their core curriciulum. This was really hard but I'm very happy to have now finished them all! I built all 5 of the apps as single page React/Redux applications with Node on the back end, so I can say I've definitely learned a ton about the entire JavaScript stack along the way. Now that I have these in my portofolio I will move on to what's next: finding and applying for jobs.</p>
 				<p class = "entryText">With that said, here's an obligatory cat picture. <i class="em em-octocat"></i></p>
-				<img id = "kitten" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162286/blog/kitten.jpg" alt = "Obligatory Cat Picture" />
+				<img id = "kitten" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162286/blog/kitten.jpg" alt = "Obligatory Cat Picture" />
 			`
 	}	,
 	{
@@ -184,19 +184,19 @@ const Blog = [
 		text: 
 			`
 				<p class = "entryText">The view of downtown San Francisco from Alameda Island:</p>
-				<img id = "alameda" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162333/blog/alameda-2.jpg" alt = "A View from Alameda" />
+				<img id = "alameda" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162333/blog/alameda-2.jpg" alt = "A View from Alameda" />
 				<p class = "entryText">A lot of time has passed since I last wrote here but I haven't forgotten about this blog! Since my last post SO much has happened, it's not far from the truth to say I've barely had a moment to rest since November. I'll keep it brief:</p>
 				<p class = "entryText">I left San Francisco in mid-November and drove to Portland, where I stayed for a few days. From there, I drove north to Bellingham, WA where I was so lucky to spend Thanksgiving with two of my friends who happen to be living there right now. Over the weekend we took a short trip to Vancouver, which was incredible! From there, I returned to spend about two weeks in Seattle. I was fortunate enough to attend several meetups there, including two nights of Kyle Simpson giving talks on JavaScript! But it seems my heart is in San Francisco. Once I returned, I stayed briefly in Sunset District before moving over to the East Bay and I love it on this side! There is so much to do and explore. And, this is where Korea Town is. It was here that I spent some of Christmas, hiking around some trails that led to overlooks of the entire bay. And now, I'm about to return to the Peninsula to live near Balboa Park for the month of January.</p>
 				<p class = "entryText">Why go back if the East Bay is so nice? I'm going to attend Outco's Interview Preparation program in January, and it'll be easier to be close to it. One thing led to another back in November and before I knew it I had a chance to attend their program and I thought, perfect, this is just what I'm looking for. They offer a solid grounding in computer science algorithms and data structures which I know that I, like many other bootcamp graduates, lack. But I also am really interested in learning this material. Furthermore, Outco provides career support for anyone looking to improve their applications to jobs in the tech industry. I'm excited to start.</p>
-				<img id = "kimchi" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162370/blog/kimchi-jigae.jpg" alt = "Heaven" />
-				<p class = "captionText">This is what Heaven looks like.</p>
+				<img id = "kimchi" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162370/blog/kimchi-jigae.jpg" alt = "Heaven" />
+				<p class = "captionText">This is what Heaven looks like</p>
 				<p class = "entryText">Meanwhile, in the free time I've had in the midst of all this traveling, I've been working busily. I continued right where I left off with the Free Code Camp curriculum and continued to build a web app that lets users create and share quizzes with others. I really like this one and learned a lot from building it. Additionally, since I had finished the FCC curriculum I was eligible to begin the non-profit projects. Naturally, I eagerly began this process and, before I knew it, I was put in charge of developing a new branch of Free Code Camp's curriculum. I never thought I would be working on this but I was thrilled to be offered the opportunity to do so.</p>
 				<p class = "entryText">Since then, I've finished the development of almost 90 new challenges for the curriculum on topics ranging from React and Redux to advanced data structures, and these are all undergoing QA right now. I also started working on another project a fellow camper has begun as a solution to a problem the company he works for is facing. He works in IT and they currently have some antiquated overly-featured ticketing software for employees to report problems they have. He is developing a node app which will replicate this functionality with a much simpler user interface. I've paired up with him and we've been making steady progress on this project. I hope he is able to employ this at his company soon!</p>
-				<img id = "richmond" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162376/blog/richmond.jpg" alt = "Richmond" />
+				<img id = "richmond" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162376/blog/richmond.jpg" alt = "Richmond" />
 				<p class = "captionText">The Golden Gate arches from Richmond, in the north. Can you see them?</p>
 				<p class = "entryText">Now, I'm looking forward to 2017 where I will have 4 weeks of drilling on merge sort and binary search trees as I begin to apply to jobs. But before that, there's one thing left to do in 2016: tomorrow night, to bring in the New Year, Free Code Camp is hosting a live chat between developers all over the world for 4 hours. We'll celebrate the New Year 4 times! I have the privilege of interviewing none other than (gasp) Kyle Simpson! Hopefully I can keep my nerves together...</p>
 				<p class = "entryText">And finally, a visual illustration of my activity over the last two months:</p>
-				<img id = "sfMap" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_20/v1483162332/blog/sf-map.png" alt = "Bay Area Map" />
+				<img id = "sfMap" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162332/blog/sf-map.png" alt = "Bay Area Map" />
 			`
 	}		
 ]
