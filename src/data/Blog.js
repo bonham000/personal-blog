@@ -177,6 +177,27 @@ const Blog = [
 				<p class = "entryText">With that said, here's an obligatory cat picture. <i class="em em-octocat"></i></p>
 				<img id = "kitten" src = "images/kitten.JPG" alt = "Obligatory Cat Picture" />
 			`
+	}	,
+	{
+		title: "Carouselambra",
+		subtitle: "Day 87: Alameda, East Bay (December 30, 2016)",
+		text: 
+			`
+				<p class = "entryText">The view of downtown San Francisco from Alameda Island:</p>
+				<img id = "alameda" src = "images/alameda-2.jpg" alt = "A View from Alameda" />
+				<p class = "entryText">A lot of time has passed since I last wrote here but I haven't forgotten about this blog! Since my last post SO much has happened, it's not far from the truth to say I've barely had a moment to rest since November. I'll keep it brief:</p>
+				<p class = "entryText">I left San Francisco in mid-November and drove to Portland, where I stayed for a few days. From there, I drove north to Bellingham, WA where I was so lucky to spend Thanksgiving with two of my friends who happen to be living there right now. Over the weekend we took a short trip to Vancouver, which was incredible! From there, I returned to spend about two weeks in Seattle. I was fortunate enough to attend several meetups there, including two nights of Kyle Simpson giving talks on JavaScript! But it seems my heart is in San Francisco. Once I returned, I stayed briefly in Sunset District before moving over to the East Bay and I love it on this side! There is so much to do and explore. And, this is where Korea Town is. It was here that I spent some of Christmas, hiking around some trails that led to overlooks of the entire bay. And now, I'm about to return to the Peninsula to live near Balboa Park for the month of January.</p>
+				<p class = "entryText">Why go back if the East Bay is so nice? I'm going to attend Outco's Interview Preparation program in January, and it'll be easier to be close to it. One thing led to another back in November and before I knew it I had a chance to attend their program and I thought, perfect, this is just what I'm looking for. They offer a solid grounding in computer science algorithms and data structures which I know that I, like many other bootcamp graduates, lack. But I also am really interested in learning this material. Furthermore, Outco provides career support for anyone looking to improve their applications to jobs in the tech industry. I'm excited to start.</p>
+				<img id = "kimchi" src = "images/kimchi-jigae.jpg" alt = "Heaven" />
+				<p class = "captionText">This is what Heaven looks like.</p>
+				<p class = "entryText">Meanwhile, in the free time I've had in the midst of all this traveling, I've been working busily. I continued right where I left off with the Free Code Camp curriculum and continued to build a web app that lets users create and share quizzes with others. I really like this one and learned a lot from building it. Additionally, since I had finished the FCC curriculum I was eligible to begin the non-profit projects. Naturally, I eagerly began this process and, before I knew it, I was put in charge of developing a new branch of Free Code Camp's curriculum. I never thought I would be working on this but I was thrilled to be offered the opportunity to do so.</p>
+				<p class = "entryText">Since then, I've finished the development of almost 90 new challenges for the curriculum on topics ranging from React and Redux to advanced data structures, and these are all undergoing QA right now. I also started working on another project a fellow camper has begun as a solution to a problem the company he works for is facing. He works in IT and they currently have some antiquated overly-featured ticketing software for employees to report problems they have. He is developing a node app which will replicate this functionality with a much simpler user interface. I've paired up with him and we've been making steady progress on this project. I hope he is able to employ this at his company soon!</p>
+				<img id = "richmond" src = "images/richmond.jpg" alt = "Richmond" />
+				<p class = "captionText">The Golden Gate arches from Richmond, in the north. Can you see them?</p>
+				<p class = "entryText">Now, I'm looking forward to 2017 where I will have 4 weeks of drilling on merge sort and binary search trees as I begin to apply to jobs. But before that, there's one thing left to do in 2016: tomorrow night, to bring in the New Year, Free Code Camp is hosting a live chat between developers all over the world for 4 hours. We'll celebrate the New Year 4 times! I have the privilege of interviewing none other than (gasp) Kyle Simpson! Hopefully I can keep my nerves together...</p>
+				<p class = "entryText">And finally, a visual illustration of my activity over the last two months:</p>
+				<img id = "sfMap" src = "images/sf-map.png" alt = "Bay Area Map" />
+			`
 	}		
 ]
 
