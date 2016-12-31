@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 55px;
+  font-family: sans-serif;
+  background: #DEE5E5;
+  text-align: center;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+}
+
+/* Title Styling */
+.titleComponent {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	background: #292F36;
+  border-bottom: 10px solid #DB504A;
+}
+.mainTitle {
+	font-size: 95px;
+	margin: 0;`
+	padding: 0;
+	text-align: center;
+	color: #DB504A;
+}
+.mainSubtitle {
+	margin: auto;
+	font-size: 40px;
+	text-align: center;
+	padding: 25px 275px;
+	color: #FFE66D;
+}
+
+.sortDiv {
+	font-size: 35px;
+	border-radius: 5px;
+	width: 50vw;
+	margin: auto;
+	margin-top: 25px;
+	padding: 20px;
+	background: rgba(50,50,50,0.15);
+	transition: background-color 250ms ease;
+}
+.sortDiv:hover {
+	cursor: pointer;
+	background: rgba(50,50,50,0.25);
+	transition: background-color 250ms ease;
+}
+
+/* Entries Styling */
+.entriesComponent {
+	padding: 0;
+	margin: 0;
+	color: #073B3A;
+}
+.entryTitle {
+	font-size: 55px;
+	width: 55vw;
+	margin: 30px auto 0 auto;
+	text-align: left;
+}
+.entrySubtitle {
+	font-size: 30px;
+	width: 55vw;
+	margin: 0 auto -10px auto;
+	text-align: left;
+}
+.entryText {
+	width: 55vw;
+	margin: 25px auto;
+	font-size: 24px;
+	text-align: left;
+}
+.centerText {
+	text-align: center;
+}
+#emoji {
+	text-align: center;
+}
+.quoteText {
+	text-align: center;
+	font-size: 28px;
+	font-family: 'Rubik', sans-serif;
+}
+.captionText {
+	text-align: center;
+	font-size: 22px;
+}
+
+hr {
+	width: 65vw;
+	height: 10px;
+	background: #DB504A;
+	border: 1px solid #DB504A;
+	border-radius: 5px;
+}
+
+a, a:visited {
+	color: #073B3A;
+}
+a:hover {
+	color: #DB504A;
+	color: #0291FF;
+}
+.toTop a, .toTop a:visited {
+	text-decoration: none;
+}
+
+/* Images Styling */
+#zeppelinImg {
+	width: 45vw;
+}
+#fatigueImg {
+	width: 50vw;
+}
+#fccImg {
+	width: 75vw;
+}
+#usaMap {
+	width: 45vw;
+}
+
+#skylineImg {
+	width: 100%;
+}
+#libraryImg {
+	width: 100%;
+}
+
+#chineseSubImg {
+	width: 65vw;
+}
+
+#phoImg {
+	width: 45vw;
+}
+
+#windmills {
+	width: 100%;
+}
+
+#bullhead {
+	width: 65vw;
+}
+
+#colorado-river {
+	width: 100%;
+}
+
+#pacificOcean {
+	width: 100%;
+}
+
+#kitten {
+	width: 30vw;
+}

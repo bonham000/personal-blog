@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 
-
-class BlogEntries extends Component {
+export default class BlogEntries extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
 			entries: [],
 			order: true
 		}
-		this.sort = this.sort.bind(this)
 	}
-	sort() {
+	sort = () => {
 		let currentOrder = this.state.entries.slice();
 		let newOrder = currentOrder.reverse();
 		this.setState({
@@ -54,6 +52,4 @@ class BlogEntries extends Component {
     	</div>
     );
   }
-}
-
-export default BlogEntries;
+};
