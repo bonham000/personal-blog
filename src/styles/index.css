@@ -86,6 +86,13 @@ body {
 .centerText {
 	text-align: center;
 }
+.bulletText {
+	width: 55vw;
+	margin: auto;
+	font-size: 22px;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+}
 #emoji {
 	text-align: center;
 }
@@ -177,4 +184,7 @@ a:hover {
 }
 #sfMap {
 	width: 45vw;
+}
+#TruSTAR {
+	width: 55vw;
 }

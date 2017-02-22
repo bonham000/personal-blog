@@ -177,7 +177,7 @@ const Blog = [
 				<p class = "entryText">With that said, here's an obligatory cat picture. <i class="em em-octocat"></i></p>
 				<img id = "kitten" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162286/blog/kitten.jpg" alt = "Obligatory Cat Picture" />
 			`
-	}	,
+	},
 	{
 		title: "Carouselambra",
 		subtitle: "Day 87: Alameda, East Bay (December 30, 2016)",
@@ -198,7 +198,33 @@ const Blog = [
 				<p class = "entryText">And finally, a visual illustration of my activity over the last two months:</p>
 				<img id = "sfMap" src = "http://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1483162332/blog/sf-map.png" alt = "Bay Area Map" />
 			`
-	}		
+	},
+	{
+		title: "Celebration Day",
+		subtitle: "Day 140: The Mission, SF (February 21, 2017)",
+		text: 
+			`
+				<p class = "entryText">Now, after several months of tireless effort, I've reached my goal: In less than two weeks I'll be working as a software engineer at TruSTAR Technology, a cybersecurity startup in San Francisco.</p>
+				<p class = "entryText">I couldn't be more excited! This is literally a dream come true for me.</p>
+
+				<img id = "TruSTAR" src = "https://res.cloudinary.com/sean-smith-me/image/upload/q_50/v1487729106/TruSTAR_as7wc6.png" alt = "TruSTAR Technology" />
+
+				<p class = "entryText">Here are some details on what it took to achieve this:</p>
+				<p class = "bulletText">&bull; I created 70+ personal projects.</p>
+				<p class = "bulletText">&bull; I committed code to GitHub 1,500+ times.</p>
+				<p class = "bulletText">&bull; I wrote 20,000+ lines of JavaScript.</p>
+				<p class = "bulletText">&bull; I spent probably 2,500+ hours coding, studying, and learning.</p>
+				<p class = "entryText">On the job search:</p>
+				<p class = "bulletText">&bull; I submitted 192 job applications.</p>
+				<p class = "bulletText">&bull; I had phone screens with 17 different companies.</p>
+				<p class = "bulletText">&bull; I completed 6 take-home code challenges.</p>
+				<p class = "bulletText">&bull; I completed 5 technical screens.</p>
+				<p class = "bulletText">&bull; I completed 3 onsites.</p>
+				<p class = "bulletText">&bull; I received 1 amazing offer.</p>
+				<p class = "entryText">This has been an extraordinary and stressful journey. I'm very happy to now bring the hardest part of it to a close and begin a career as an engineer at a company I really care about. I couldn't be more excited to get started and can't wait to see what I can accomplish over the next few years!</p>
+				<p class = "entryText centerText" id ="emoji"><i class="em em-sparkles"></i> <i class="em em-star2"></i> <i class="em em-rocket"></i><br><br></p>
+			`
+	}	
 ]
 
 export default Blog;

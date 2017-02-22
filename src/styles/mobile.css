@@ -30,6 +30,10 @@
 		width: 50vw;
 		font-size: 24px;
 	}
+	.bulletText {
+		width: 85vw;
+		font-size: 20px;
+	}
 	.captionText {
 		width: 90vw;
 		margin: auto;
@@ -74,6 +78,10 @@
 		width: 75vw;
 		font-size: 23px;
 		text-align: center;
+	}
+	.bulletText {
+		width: 75vw;
+		font-size: 18px;
 	}
 	.captionText {
 		font-size: 22px;
@@ -121,6 +129,9 @@
 	#sfMap {
 		width: 100%;
 	}
+	#TruSTAR {
+		width: 100%;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -155,6 +166,10 @@
 		width: 100%;
 		font-size: 22px;
 		text-align: center;
+	}
+	.bulletText {
+		width: 90vw;
+		font-size: 16px;
 	}
 	.captionText {
 		margin-top: 7px;
@@ -195,6 +210,10 @@
 		width: 90vw;
 		margin: 25px auto;
 		font-size: 24px;
+	}
+	.bulletText {
+		width: 90vw;
+		font-size: 15px;
 	}
 	.quoteText {
 		font-size: 20px;
